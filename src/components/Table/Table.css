@@ -1,0 +1,37 @@
+.search{
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+    width: 40%;
+    margin-left: 30%;
+}
+
+.customerTable {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    margin: 0px 20px;
+  }
+  
+.customerTable td, .customerTable th {
+    border: 1px solid #ddd;
+    padding: 3px;
+  }
+  
+.customerTable tr:nth-child(even){background-color: #f2f2f2;}
+  
+.customerTable tr:hover {background-color: #ddd;}
+  
+.customerTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(0, 174, 255);
+    color: white;
+  }
+.flag{
+    width: 120px;
+}
+.sort{
+    cursor: pointer;
+}
